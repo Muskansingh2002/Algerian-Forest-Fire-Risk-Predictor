@@ -42,7 +42,11 @@ This project demonstrates the deployment of a **machine learning model** via a *
 
 - **Model**: Ridge Regression
 - **Scaler**: StandardScaler
-- **Target**: Fire Weather Index (FWI) or Binary Fire Class (depending on version)
+- **Target**:- **Classes** — Binary classification with two possible values:
+  - **Fire** (1)
+  - **Not Fire** (0)
+
+The model predicts whether a forest fire will occur based on environmental and meteorological conditions.
 - **Features Used**: Temp, RH, Ws, Rain, FFMC, DMC, ISI, Classes (converted), Region
 
 ---
